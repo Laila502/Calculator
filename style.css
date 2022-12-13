@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 49, 42);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 8px;
+    width: 255px;
+    height: 355px;
+    margin-top: 150px;
+    padding: 10px;
+    padding-top: 35px;
+}
+
+.container, .display, button{
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.display{
+    display: flex;
+    align-items:flex-end;
+    justify-content: end;
+    background-color: rgb(238, 238, 225);
+    width: 250px;
+    height: 55px;
+    padding-bottom: 10px;
+}
+
+
+.result{
+    font-size: 25px;
+}
+
+p{
+    margin: 0;
+    margin-right: 5px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+button{
+    background-color:rgb(238, 238, 225);
+    font-size: 20px;
+    height: 45px;
+    width: 60px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.98);
+}
+
+.clear{
+    background-color: brown;
+}
+
+.equal{
+    width: 124px
+}
+
+.operators, .equal{
+    background-color: gray;
+}
+ 
+#decimal{
+    background-color: rgb(238, 238, 225);
+}
